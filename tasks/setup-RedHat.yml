@@ -8,3 +8,4 @@
   dnf:
     name: "{{ puppet_yum_rpm }}"
     state: present
+    use_backend: dnf4
